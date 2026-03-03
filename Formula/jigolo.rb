@@ -1,25 +1,25 @@
 class Jigolo < Formula
   desc "A TUI tool for managing CLAUDE.md context files"
   homepage "https://github.com/freyr/jigolo"
-  version "0.3.1"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/freyr/jigolo/releases/download/v0.3.1/jigolo-aarch64-apple-darwin.tar.xz"
-      sha256 "c00dd334346d1adfc8ba04a4503b0b9cec18b2bc7f612a12748dfd1964480b1f"
+      url "https://github.com/freyr/jigolo/releases/download/v0.4.0/jigolo-aarch64-apple-darwin.tar.xz"
+      sha256 "34253f27d6eb080222bed9a5ab62027623082e16424f4f7301dfcbc50ad6c798"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/freyr/jigolo/releases/download/v0.3.1/jigolo-x86_64-apple-darwin.tar.xz"
-      sha256 "a8be762488688beb62080bf2106a75478857583a74830b8a1ef3354ba15ff684"
+      url "https://github.com/freyr/jigolo/releases/download/v0.4.0/jigolo-x86_64-apple-darwin.tar.xz"
+      sha256 "36499fcc32ddd25756eb5ba4b3feb739852ab0b8fcac1651d7ec5c4559294cd7"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/freyr/jigolo/releases/download/v0.3.1/jigolo-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "9a94a55538e55317098d1e2293f9a6fbcd62bcdda2d3a8a4cf57b1732b2877ba"
+      url "https://github.com/freyr/jigolo/releases/download/v0.4.0/jigolo-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "7ec9aeedfecc470f33657d62c89c9541ef8c1f983307f3f32a7ec6e3963d8609"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/freyr/jigolo/releases/download/v0.3.1/jigolo-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "dc04125cf7eef0db8fd95ef0561232679ded7eb948e1196347c5aee0963ac55e"
+      url "https://github.com/freyr/jigolo/releases/download/v0.4.0/jigolo-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "02ac113da310c7a7ed10914509ace4463acb28388f3a6c21fb8ca515312a9ec5"
     end
   end
   license "MIT"
